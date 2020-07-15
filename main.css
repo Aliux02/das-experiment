@@ -25,16 +25,18 @@ body * {
         float: right;
     }
 .baras {
+    display: inline-block;
     width: 100%;
     background-color: cyan;
     height: 10px;
     }
     .baras > .baro-reiksme {
+        display: inline-block;
         width: 55%;
         height: 100%;
-        background-color: darkblue;
-    }
+        }
         .baras > .baro-reiksme > .loader{
+            display: inline-block;
             width: 100%;
             height: 100%;
             background-color: red;
