@@ -11,16 +11,16 @@ body * {
     background-color: burlywood;
     margin: calc(50% - 350px);
 }
-.pavadinimas-reiksme {
+.virsus {
     width: 100%;
     display: inline-block;
     margin-bottom: 20px;
 }
-    .pavadinimas-reiksme > .pavadinimas {
+    .virsus > .pavadinimas {
         display: inline-block;
         float: left;
     }
-    .pavadinimas-reiksme > .reiksme {
+    .virsus > .reiksme {
         display: inline-block;
         float: right;
     }
