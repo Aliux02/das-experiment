@@ -8,47 +8,9 @@ body * {
 }
 .container {
     display: inline-block;
-    width: 700px;
+    width: 100px;
+    height: 100px;
     background-color: burlywood;
-    margin: calc(50% - 350px);
-}
-.virsus {
-    width: 100%;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-    .virsus > .pavadinimas {
-        display: inline-block;
-        float: left;
-    }
-    .virsus > .reiksme {
-        display: inline-block;
-        float: right;
-    }
-.baras {
-    display: inline-block;
-    width: 100%;
-    background-color: cyan;
-    height: 10px;
-    }
-    .baras > .baro-reiksme {
-        display: inline-block;
-        width: 55%;
-        height: 100%;
-        }
-        .baras > .baro-reiksme > .loader{
-            display: inline-block;
-            width: 100%;
-            height: 100%;
-            background-color: red;
-            animation-name: loading;
-            animation-duration: 3s;
-            animation-fill-mode: forwards;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-@keyframes loading {
-    0% { width: 0%;}
-    50% { width: 50%;}
-    100% {width: 100%;}
+    border-color: red;
+    border-style: solid;
 }
